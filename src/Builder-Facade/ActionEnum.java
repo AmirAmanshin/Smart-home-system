@@ -3,5 +3,15 @@ public enum ActionEnum {
     TURN_OFF,
     SET_TEMPERATURE,
     SET_BRIGHTNESS,
-    PLAY
+    SET_COLOUR,
+    LOCK,
+    UNLOCK,
+    START_RECORDING,
+    STOP_RECORDING,
+    DETECT,
+    CALIBRATE,
+    MOVE_FORWARD,
+    MOVE_BACKWARD,
+    TURN_LEFT,
+    TURN_RIGHT
 }
