@@ -1,0 +1,29 @@
+Псоле того как напишите сюда памятку или сообщение, обязательно поставьте решётку в конце, чтобы мы знали кто это пишет.
+
+
+Порядок разработки:
+    
+    1. Device interface
+        Пока что были написаны только интерфейсы для управления устройствами:
+        - IDevicePowerControll
+        - IDeviceBrightnessControll
+        - IDeviceThermoControll
+        - IDeviceColourControll
+        - IDeviceLockControll
+        - IDeviceRecordingControll
+        - IDeviceMovingControll
+        - IDeviceSensorControll 
+        Потом напишу abstract или interface Device и нужно будет внедрить factory. #Амир
+    2. Adapters
+        Сам разберись или у гптшника спроси как реализовать адаптеры. #Амир
+    3. Factory
+        После создания Device. Нужно различные типы устройств и их создание реализовать через фабрику. #Амир
+    4. Action + Condition
+        Этим я займусь, чуть позже, этим днём. Требуется для сценариев. #Амир
+    5. Builder
+        Для создания сценариев. #Амир
+    6. Facade
+        Планировал UI как-то прикрутить через Unity, но думаю времени не хватит. Сделаю простенько. #Амир
+    7. Observer
+    8. Strategy
+    9. Интеграция всей системы
