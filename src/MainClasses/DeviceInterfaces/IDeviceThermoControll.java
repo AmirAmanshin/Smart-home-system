@@ -1,4 +1,4 @@
-package Main Classes.Device Interfaces;
+package MainClasses.DeviceInterfaces;
 
 public interface IDeviceThermoControll {
     void SetTemperature(int value);

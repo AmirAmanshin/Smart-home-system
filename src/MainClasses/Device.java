@@ -1,4 +1,4 @@
-package Main Classes;
+package MainClasses;
 
 public class Device {
     
